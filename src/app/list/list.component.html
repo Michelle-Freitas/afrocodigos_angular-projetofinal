@@ -1,0 +1,14 @@
+<h2>Lista de Colaboradores</h2>
+
+<div class="list-container" *ngIf="collaborators">
+    <ul *ngFor="let collaborator of collaborators">
+        <li class="card-item">
+            <app-item-card [collaborator]="collaborator" (editCollaborator)="onEditCollaborator(collaborator)"></app-item-card>
+        </li>
+    </ul>
+</div>
+
+<div class="list-container" *ngIf="collaborators.length === 0">
+    <p>Nenhum colaborador cadastrado!</p>
+</div>
+

@@ -1,0 +1,24 @@
+{
+  "collaborators": [
+    {
+      "id": "1",
+      "name": "Fulano da Silva",
+      "role": "Desenvolvedor Front-end"
+    },
+    {
+      "id": "2",
+      "name": "Ciclano Souza",
+      "role": "Desenvolvedor Back-end"
+    },
+    {
+      "id": "3",
+      "name": "Silva Sauro",
+      "role": "Desenvolvedor Full-Stack"
+    },
+    {
+      "name": "Michelle Alves De Freitas",
+      "role": "Desenvolvedor Front-end",
+      "id": "e5f2"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.notFound-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1.3rem;
+}
+
+.image-link {
+    font-size: .8rem;
+}
+
+.notFound-image {
+    max-width: 500px;
+}

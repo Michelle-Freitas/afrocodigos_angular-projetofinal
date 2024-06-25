@@ -1,0 +1,52 @@
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+    width: 100%;
+    min-width: 260px;
+    padding: 8px;
+    border: 1px solid var(--bg-color);
+    border-radius: 8px;
+}
+
+span {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.btn-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn {
+    width: 50px;
+    padding: 8px;
+    border-radius: 8px;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: var(--bg-color);
+    border: 1px solid var(--bg-color);
+}
+
+.edit-btn:hover {
+    scale: 1.1;
+    transition: all .3s;
+}
+
+.delete-btn {
+    background-color: #fff;
+    border: 1px solid var(--bg-color);
+}
+
+.delete-btn:hover {
+    scale: 1.1;
+    transition: all .3s;
+}

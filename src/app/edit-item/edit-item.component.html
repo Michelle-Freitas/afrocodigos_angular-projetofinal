@@ -1,0 +1,13 @@
+<div class="form-container">
+    <h2>Editando o colaborador</h2>
+
+    <form action="">
+        <label for="editName">Nome:</label>
+        <input type="text" name="editName" id="editName" [(value)]="collaboratorToEdit.name" [(ngModel)]="updatedName">
+        <label for="editRole">Cargo:</label>
+        <input type="text" name="editRole" id="editRole" [(value)]="collaboratorToEdit.role" [(ngModel)]="updatedRole">
+        <button type="button" class="btn" (click)="saveEdit()">Salvar</button>
+    </form>
+
+</div>
+

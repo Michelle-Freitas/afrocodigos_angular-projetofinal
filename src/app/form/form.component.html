@@ -1,0 +1,13 @@
+<div class="form-container">
+    <h2>Cadastre um novo colaborador</h2>
+
+    <form action="">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" [(ngModel)]="name">
+        <label for="role">Cargo:</label>
+        <input type="text" name="role" id="role" [(ngModel)]="role">
+        <button type="button" class="btn" (click)="submitForm()" >Cadastrar</button>
+    </form>
+
+</div>
+
